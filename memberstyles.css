@@ -84,7 +84,6 @@ body, html, main {
   }
 
   #pics {
-      background-color: beige;
       display: flex;
       flex-direction: column;
       align-items: center;
