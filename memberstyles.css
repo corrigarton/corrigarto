@@ -32,6 +32,10 @@ body, html, main {
     display: none
   }
   
+ #title{
+   display: none;
+ }
+  
   /*Logo in header*/
   header > a > img {
     height: 45px;
