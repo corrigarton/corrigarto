@@ -1,0 +1,126 @@
+body, html, main {
+    width: 100vw;
+    padding: 0px;
+    margin: 0;
+  }
+
+  body {
+    background-image: url("desktopbackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100vw;
+    padding-top: 10px;
+    margin-bottom: 50px;
+  }
+  
+  /*button for mobile menu*/
+  .navButton {
+    display: none;
+  }
+  
+   /*mobile navigation*/
+  #navBar {
+    display: none
+  }
+  
+  /*Logo in header*/
+  header > a > img {
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  /*navigation bar top of page*/
+  nav {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: 3.5%;
+  }
+  
+  /*navigation links*/
+  nav  a {
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  /*navigation links on hover*/
+  a:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /*order online button in header*/
+  #orderNav {
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    padding: 15px 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /*order now button in navigation bar*/
+  #orderNav:hover {
+    background-color: rgba(0,0,0,.7);
+  }
+  
+  /*normal links (not order button)*/
+  nav > a {
+    display: flex;
+    height: min-content;
+    margin-top: -15px;
+  }
+  
+  /*title in middle of page & order now button*/
+  .heading {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-top: 180px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFB3EC;
+  }
+  
+  /*main title middle of page*/
+  .heading > h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /*order now button in middle of page*/
+  #orderButton {
+    color: #FFB3EC;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border: solid;
+    border-color: #FFB3EC;
+  }
+  
+  #orderButton:hover {
+    background-color: rgba(214, 248, 255, 1);
+  }
+  
+  #orderLink {
+    text-decoration: none;
+    margin-top: 50px;
+  }
+  
